@@ -1,0 +1,207 @@
+.container-store {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.header-store {
+  background-color: white;
+  height: 60px;
+  position: relative;
+  width: 100%;
+  line-height: 60px;
+  z-index: 2;
+  overflow: hidden;
+  transition: 0.5s;
+  border-bottom: 2px solid rgba(59, 59, 59, 0.308);
+}
+.header2 {
+  height: 350px;
+  background-color: rgb(161, 159, 159);
+}
+.header_name-store {
+  color: #ffa500;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.headerlist-store {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.names-store {
+  position: absolute;
+  display: inline-flex;
+  flex-direction: row;
+  font-family: system-ui;
+  left: 200px;
+}
+.hamburger-store {
+  height: 30px;
+  line-height: 60px;
+  position: absolute;
+  top: 8px;
+  border: 2px solid rgba(20, 20, 20, 0.788);
+  padding: 5px;
+  right: 100px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.header-store ul {
+  list-style: none;
+}
+
+.header-store .headerlist-store {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  top: 40px;
+}
+
+.header-store .headerlist-store li {
+  font-size: 1.1em;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.header-store .headerlist-store li a {
+  text-decoration: none;
+  color: black;
+}
+.header-store .headerlist-store li a:hover {
+  color: rgb(252, 187, 67);
+}
+.names-store p {
+  margin: 0px 10px;
+  font-size: 1.1em;
+}
+.names-store p a {
+  text-decoration: none;
+  color: black;
+}
+.names-store p a:hover {
+  color: rgb(252, 187, 67);
+}
+.login-store {
+  position: absolute;
+  right: 150px;
+  margin: 0px 10px;
+  font-size: 1.1em;
+  font-family: system-ui;
+}
+.login-store a {
+  text-decoration: none;
+  color: black;
+}
+.login-store a:hover {
+  color: rgb(252, 187, 67);
+}
+.storeImage {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.imageSource1 {
+  height: 248.391px;
+  width: 248.391px;
+  margin: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.StoreTitle {
+  font-size: 20px;
+  line-height: 20.8px;
+  font-family: "helvetica neue", Arial, sans-serif;
+  display: block;
+  text-decoration: none solid rgb(0, 86, 179);
+  color: #212529;
+  cursor: pointer;
+  height: 20.7969px;
+  width: 248.391px;
+  text-align: center;
+  min-height: 20.8px;
+  overflow: hidden;
+  padding: 0 0 5px 0;
+  justify-content: center;
+  transform: none;
+  align-items: center;
+  transition: none 0s ease 0s;
+  margin-left: 30px;
+}
+.StorePrice {
+  font-size: 22px;
+  line-height: 28.6px;
+  font-family: "helvetica neue", Arial, sans-serif;
+  display: block;
+  font-weight: 600;
+  text-decoration: none solid rgb(33, 37, 41);
+  color: #212529;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  transform: none;
+  height: 28px;
+  margin-left: 30px;
+  width: 248.391px;
+  transition: none 0s ease 0s;
+
+  justify-content: center;
+  align-items: center;
+}
+.StoreFooter {
+  margin-left: 550px;
+  margin-top: 60px;
+}
+.threes {
+  margin-top: 100px;
+  font-family: "helvetica neue", Arial, sans-serif;
+  font-size: 16px;
+  display: flex;
+}
+.fileiconimage {
+  height: 30px;
+  width: 30px;
+  margin-left: 520px;
+}
+.trackorders {
+  color: gray;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-left: -60px;
+}
+.shoppingbagimage {
+  height: 30px;
+  width: 30px;
+  margin-left: 100px;
+}
+.shoppingbag {
+  color: gray;
+  text-decoration: none;
+  margin-left: -60px;
+  margin-top: 30px;
+}
+.usericonimage {
+  height: 20px;
+  width: 20px;
+  margin-left: 90px;
+  margin-top: 5px;
+}
+.signin {
+  color: gray;
+  text-decoration: none;
+  margin-left: -35px;
+  margin-top: 30px;
+}

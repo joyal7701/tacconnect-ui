@@ -1,0 +1,250 @@
+.header-contact {
+  background-color: white;
+  height: 60px;
+  position: relative;
+  width: 100%;
+  line-height: 60px;
+  z-index: 2;
+  overflow: hidden;
+  transition: 0.5s;
+  border-bottom: 2px solid rgba(59, 59, 59, 0.308);
+}
+.header_name-contact {
+  color: #ffa500;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.names {
+  position: absolute;
+  display: inline-flex;
+  flex-direction: row;
+  font-family: system-ui;
+  left: 200px;
+}
+.hamburger {
+  height: 30px;
+  line-height: 60px;
+  position: absolute;
+  top: 8px;
+  border: 2px solid rgba(20, 20, 20, 0.788);
+  padding: 5px;
+  right: 40px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.header-contact ul {
+  list-style: none;
+}
+
+.headerlist-contact {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  top: 60px;
+  background-color: white;
+  height: 0px;
+  overflow: hidden;
+}
+.header2-contact {
+  height: 300px;
+  background-color: rgb(161, 159, 159);
+}
+.header-contact .headerlist-contact li {
+  font-size: 1.1em;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.header-contact .headerlist-contact li a {
+  text-decoration: none;
+  color: black;
+}
+.header-contact .headerlist-contact li a:hover {
+  color: rgb(252, 187, 67);
+}
+@media (max-width: 768px) {
+  .hamburger {
+    visibility: visible;
+  }
+  .home,
+  .faqs,
+  .contact,
+  .account,
+  .login {
+    visibility: hidden;
+  }
+}
+.names p {
+  margin: 0px 10px;
+  font-size: 1.1em;
+}
+.names p a {
+  text-decoration: none;
+  color: black;
+}
+.names p a:hover {
+  color: rgb(252, 187, 67);
+}
+.login {
+  position: absolute;
+  right: 150px;
+  margin: 0px 10px;
+  font-size: 1.1em;
+  font-family: system-ui;
+}
+.login a {
+  text-decoration: none;
+  color: black;
+}
+.login a:hover {
+  color: rgb(252, 187, 67);
+}
+.main-contact {
+  position: absolute;
+  display: flex;
+  top: 140px;
+  width: 100%;
+}
+.main-contact .info {
+  position: relative;
+  left: 60px;
+  width: 50%;
+}
+.main-contact .info .cinfo {
+  font-size: 2.1em;
+  font-family: system-ui;
+  font-weight: 500;
+}
+.main-contact .info .emailinfo {
+  margin-top: 20px;
+}
+.main-contact .info .emailinfo a {
+  text-decoration: none;
+  font-size: 1.2em;
+}
+.main-contact .form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.main-contact .form .head {
+  font-size: 2.1em;
+  font-family: system-ui;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.main-contact .form form .name {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 72%;
+  justify-content: space-between;
+}
+.main-contact .form form .name input {
+  font-size: 1.1em;
+  padding: 5px;
+  width: 45%;
+}
+.main-contact .form form .emailaddress {
+  font-size: 1.1em;
+  padding: 7px;
+  width: 70%;
+  margin-top: 15px;
+}
+.main-contact .form form .subject {
+  font-size: 1.1em;
+  padding: 7px;
+  width: 70%;
+  margin-top: 15px;
+}
+.main-contact .form form .aboutus {
+  font-size: 1.2em;
+  padding: 8px;
+  width: 70%;
+  margin-top: 15px;
+  font-family: system-ui;
+}
+.main-contact .form form .btn {
+  font-size: 1.3em;
+  /* padding: 0px 0px 10px 10px ; */
+  /* width: 250px; */
+  line-height: 10px;
+  width: 160px;
+  height: 40px;
+  margin-top: 15px;
+  /* font-family: system-ui; */
+  background: rgb(28, 98, 250);
+  border: 1px solid rgb(28, 98, 250);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 0px;
+  /* position: relative; */
+  display: flex;
+  text-align: center;
+}
+
+.container-contact {
+  position: relative;
+  height: 100vh;
+}
+.Footer-contact{
+  top: 88%;
+  position: relative;
+  text-align: center;
+}
+@media (max-width: 1024px){
+  .form{
+    right: -70px;
+  }
+}
+@media (max-width: 425px){
+  .main-contact .info{
+    width: 100%;
+  }
+  .container-contact{
+    height: 750px;
+  }
+  .main-contact{
+    flex-direction: column;
+    height: 100%;
+    align-items: center; 
+    top: 100px;
+    left: -30px;
+  }
+  .main-contact .info .emailinfo{
+    margin-top: 5px;
+  }
+  .main-contact .form{
+    top: 30px;
+    left: 60px;
+  }
+  .main-contact .form form .name{
+    width: 100%;
+    flex-direction: column;
+  }
+  .main-contact .form form .name input{
+    width: 81%;
+  }
+  .main-contact .form form .emailaddress{
+    width: 80%;
+  }
+  .main-contact .form form .subject{
+    width: 80%;
+  }
+  .main-contact .form form .aboutus{
+    width: 80%;
+  }
+  .Footer-contact{
+    top: 100%;
+  }
+} 

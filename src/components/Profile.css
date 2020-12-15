@@ -1,0 +1,192 @@
+.container-profile {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-profile{
+  background-color: #a5a5a5;
+}
+.container-profile .cover-profile {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 350px;
+  background: #f7f7f7;
+  border-radius: 20px;
+}
+.text-profile {
+  top: -40px;
+  position: relative;
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  line-height: 10px;
+}
+.text-profile img {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+.text-profile input {
+  height: 30px;
+  width: 200px;
+  border: 2px solid black;
+  background: linear-gradient(#fff, rgb(223, 222, 222));
+  padding-left: 5px;
+}
+.button-profile {
+  position: relative;
+  height: 30px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 7px;
+  top: 30px;
+  cursor: pointer;
+}
+.button-profile:hover {
+  background: rgb(252, 187, 67);
+}
+.cover-profile .signin-profile {
+  position: absolute;
+  color: black;
+  font-size: 2em;
+  top: 30px;
+  font-weight: bold;
+}
+.terms-profile {
+  position: relative;
+}
+.terms-profile input {
+  margin-right: 3px;
+  cursor: pointer;
+}
+.cover-profile .forgotpassword {
+  text-decoration: none;
+  position: relative;
+  top: 70px;
+  left: 90px;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+}
+.header-profile {
+  background-color: white;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.header_name-profile {
+  color: #ffa500;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  height: 50px;
+  cursor: pointer;
+}
+
+/* .headerlist-profile {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: none;
+} */
+.names-profile {
+  position: absolute;
+  right: 150px;
+  display: inline-flex;
+  flex-direction: row;
+  font-family: system-ui;
+}
+.names-profile .hamburger {
+  height: 30px;
+  line-height: 60px;
+  position: absolute;
+  top: 8px;
+  border: 2px solid rgba(20, 20, 20, 0.788);
+  padding: 5px;
+  right: 0px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.header-profile ul {
+  list-style: none;
+}
+
+.headerlist-profile {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  top: 60px;
+  background-color: white;
+  height: 0px;
+  overflow: hidden;
+}
+.header2-profile {
+  height: 300px;
+}
+.header-profile .headerlist-profile li {
+  font-size: 1.1em;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.header-profile .headerlist-profile li a {
+  text-decoration: none;
+  color: black;
+}
+.names-profile p {
+  margin: 0px 10px;
+  font-size: 1.1em;
+}
+.names-profile p a {
+  text-decoration: none;
+  color: black;
+}
+.names-profile p a:hover {
+  color: rgb(252, 187, 67);
+}
+.footer-profile{
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  text-align: center;
+  font-size: 1em;
+}
+.footer-profile p{
+  color: black;
+}
+@media (max-width: 768px){
+  .home,
+  .faqs,
+  .contact,
+  .account{
+      visibility: hidden;
+  }
+  .hamburger{
+    position: relative;
+    right: 100px;
+  }
+}

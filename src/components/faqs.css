@@ -1,0 +1,179 @@
+.container-faqs {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.header-faqs {
+  background-color: white;
+  height: 60px;
+  position: relative;
+  width: 100%;
+  line-height: 60px;
+  z-index: 2;
+  overflow: hidden;
+  transition: 0.5s;
+  border-bottom: 2px solid rgba(59, 59, 59, 0.308);
+}
+
+.header_name-faqs {
+  color: #ffa500;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  height: 50px;
+  cursor: pointer;
+}
+.names-faqs {
+  position: absolute;
+  display: inline-flex;
+  flex-direction: row;
+  font-family: system-ui;
+  left: 200px;
+}
+.hamburger-faqs {
+  height: 30px;
+  line-height: 60px;
+  position: absolute;
+  top: 8px;
+  border: 2px solid rgba(20, 20, 20, 0.788);
+  padding: 5px;
+  right: 100px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.header-faqs ul {
+  list-style: none;
+}
+.headerlist-faqs {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  top: 60px;
+  background-color: white;
+  height: 0px;
+  overflow: hidden;
+}
+.header2-faqs {
+  height: 300px;
+  background-color: rgb(161, 159, 159);
+}
+.header-faqs .headerlist-faqs li {
+  font-size: 1.1em;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.header-faqs .headerlist-faqs li a {
+  text-decoration: none;
+  color: black;
+}
+.header-faqs .headerlist-faqs li a:hover {
+  color: rgb(252, 187, 67);
+}
+.names-faqs p {
+  margin: 0px 10px;
+  font-size: 1.1em;
+}
+.names-faqs p a {
+  text-decoration: none;
+  color: black;
+}
+.names-faqs p a:hover {
+  color: rgb(252, 187, 67);
+}
+.login-faqs {
+  position: absolute;
+  right: 150px;
+  margin: 0px 10px;
+  font-size: 1.1em;
+  font-family: system-ui;
+}
+.login-faqs a {
+  text-decoration: none;
+  color: black;
+}
+.login-faqs a:hover {
+  color: rgb(252, 187, 67);
+}
+.main-faqs {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 100px;
+  margin-bottom: 190px;
+  flex-direction: column;
+}
+.general {
+  position: relative;
+  font-family: system-ui;
+  width: 80%;
+  left: 10%;
+}
+.faqHeader {
+  font-size: 1.8em;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.card-header {
+  font-size: 1.2em;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  font-family: helvetica neue, Arial, sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  cursor: pointer;
+}
+.card-header h4 {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.card-header h4 p {
+  text-decoration: none;
+  color: #007bff;
+}
+.card-header h4 p yes-toggle {
+  display: block;
+  color: black;
+}
+.card-header h4 p no-toggle {
+  display: none;
+}
+.card-block {
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  font-size: 0.9em;
+  line-height: 20px;
+  display: none;
+}
+.active {
+  display: block;
+}
+footer {
+  position: relative;
+  width: 100%;
+  bottom: 10px;
+}
+.footer {
+  color: black;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+@media (max-width: 768px){
+  .home,
+  .faqs,
+  .contact,
+  .account{
+      visibility: hidden;
+  }
+  .hamburger{
+    /* position: relative; */
+    right: 100px;
+  }
+}
